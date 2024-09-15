@@ -6,6 +6,7 @@ import { setupCounter } from './counter.ts'
 import { k} from './persona.ts'
 import {setupSuma } from './sumaBinaria.ts'
 import {p} from './sumaBinaria2.ts'
+import {v} from './vehiculo.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div> 
@@ -27,6 +28,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <button id="sumabin" type="button">Sumar Binario</button>
       <h3><p>La suma de los dos numeros ingresados en binario es: <span id="resultado">${setupSuma}</span></p></h3>
       <button id="counter" type="button"></button>
+      ${v}
       ${p}
     </div>
     
