@@ -1,5 +1,3 @@
-// vehiculos.ts
-
 export interface Vehiculo {
     marca: string;
     modelo: string;
@@ -30,6 +28,7 @@ function imprimirVehiculos(): void {
 }
 
 
+console.table(auto)
 
 export let v = console.table(auto)
 

@@ -1,7 +1,6 @@
 export function setupSumaBin(buttonElement: HTMLButtonElement, displayElement: HTMLDivElement, input1Element: HTMLInputElement, input2Element: HTMLInputElement) {
     
     const setCounter = (resultado: number) => {
-         resultado = resultado
          displayElement.innerHTML =    `${resultado}`
        }
  
