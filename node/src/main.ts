@@ -53,7 +53,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <div class="card">
        <h2>Ejercicio 3 Empleados</h2>
      
-        <p id="empleado" type="String"/>
+        <p id="empleado2" type="String"/>
       </div>
       </div>
     </div>
@@ -74,7 +74,7 @@ const displayElement2 = document.querySelector<HTMLDivElement>('#empleado')!
 const displayElement3 = document.querySelector<HTMLDivElement>('#motor')!
 
 //Empleado
-const displayElement4 = document.querySelector<HTMLDivElement>('#empleado')!
+const displayElement4 = document.querySelector<HTMLDivElement>('#empleado2')!
 
 setupSumaBin(buttonElement, displayElement, input1Element, input2Element)
 setupProyect(displayElement1, displayElement2)
