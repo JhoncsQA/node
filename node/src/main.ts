@@ -4,6 +4,7 @@ import { v } from './vehiculo.ts'
 import { setupProyect } from './ejercicio2.ts'
 import {setupMotor} from './motor.ts'
 import {setupEmpleado} from './ejercicio3.ts'
+import './promises.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
